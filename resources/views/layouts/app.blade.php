@@ -5,7 +5,8 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>I-Eon</title>
-    <meta name="description" content="">
+    <meta name="description" content="I-Eon is start up company">
+    <meta name="keywords" content="ieon, i-eon, robotic company kerala, robotic company trivandrum, exo skeleton company kerala, exoskeleton company trivandrum, exo skeleton">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- <link rel="manifest" href="site.webmanifest"> -->
@@ -27,12 +28,6 @@
     <link rel="stylesheet" href="public/css/style.css">
     <!-- <link rel="stylesheet" href="public/css/responsive.css"> -->
     <style>
-      body {
-            /* background-image: url("paper.gif"); */
-            /* background-image: url('public/img/background.png'); */
-            background: #c0d7d9b8;
-            }
-
             .panel {
                     width: 100%;
                     height: 100%;
@@ -102,5 +97,36 @@
 
         });
     </script>
+
+     <script>
+        $(document).scroll(function() {
+        var y = $(this).scrollTop();
+
+        var $window = $(window);
+        var windowsize = $window.width();    
+        if(windowsize > 1552){
+            if (y > 110) {
+                $('.triangle-1').removeClass('not-show');
+                $('.triangle-2').removeClass('not-show');
+                $('.second-main').addClass('not-show');
+                console.log("yes");
+            } else {
+                $('.triangle-1').addClass('not-show');
+                $('.triangle-2').addClass('not-show');
+                $('.second-main').removeClass('not-show');
+                console.log("no");
+            }
+        }
+        if(windowsize < 668){
+            if(y > 25){
+                $('.second-main').addClass('second');
+            }else{
+                $('.second-main').removeClass('second');
+            }
+        }
+
+        });
+    </script>  
+
 </body>
 </html>

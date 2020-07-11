@@ -29,12 +29,24 @@
                 </div>
             </div>
             <div id="sticky-header" class="main-header-area">
+                <!-- <div class="main-triangle not-show"> -->
+                    <div class="triangle-1 not-show">
+                        <div class="col-xl-2 col-lg-2" style=" margin: 28px;">                               
+                            <div class="logo">
+                                    <a href="/">
+                                        <img src="public/img/logo.png" alt="">
+                                    </a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="triangle-2 not-show"></div>
+                <!-- </div>  -->
                 <div class="container">
                     <div class="header_bottom_border">
                         <div class="row align-items-center">
-                            <div class="col-xl-2 col-lg-2">
+                            <div class="second-main col-xl-2 col-lg-2">
                                 <div class="logo">
-                                    <a href="index.html">
+                                    <a href="/">
                                         <img src="public/img/logo.png" alt="">
                                     </a>
                                 </div>

@@ -9,10 +9,11 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="slider_text ">
-                                <h3> Grow Big with <br>
-                                    Musicol Business </h3>
-                                <p>Nam libero tempore, cum soluta nobis est eligendi optio <br>
-                                    cumque nihil impedit quo minus.</p>
+                                <h3> Future of movement therapy <br>
+                                    Robotic rehabilitation </h3>
+                                <p>gets done using exoskeleton technology
+                                   combining human intelligence, instinct and <br>
+                                   judgement with robotic strength.</p>
                             </div>
                         </div>
                     </div>
@@ -23,10 +24,11 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="slider_text ">
-                                <h3> Grow Big with <br>
-                                    Musicol Business </h3>
-                                <p>Nam libero tempore, cum soluta nobis est eligendi optio <br>
-                                    cumque nihil impedit quo minus.</p>
+                                <h3> Future of movement therapy <br>
+                                    Robotic rehabilitation </h3>
+                                <p>gets done using exoskeleton technology
+                                   combining human intelligence, instinct and <br>
+                                   judgement with robotic strength.</p>
                             </div>
                         </div>
                     </div>
@@ -37,10 +39,11 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="slider_text ">
-                                <h3> Grow Big with <br>
-                                    Musicol Business </h3>
-                                <p>Nam libero tempore, cum soluta nobis est eligendi optio <br>
-                                    cumque nihil impedit quo minus.</p>
+                                <h3> Future of movement therapy <br>
+                                    Robotic rehabilitation </h3>
+                                <p>gets done using exoskeleton technology
+                                   combining human intelligence, instinct and <br>
+                                   judgement with robotic strength.</p>
                             </div>
                         </div>
                     </div>
@@ -59,17 +62,18 @@
                     <div class="about_info">
                         <h2>Who  We Are.. ?</h2>
                         <br>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <br>
-                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices in iaculis nunc sed augue. Libero enim sed faucibus turpis.</p>
-                        <br>
-                        <p>Non diam phasellus vestibulum lorem sed risus ultricies tristique nulla. Elit pellentesque habitant morbi tristique senectus et netus et malesuada. Ut faucibus pulvinar elementum integer. Pretium quam vulputate dignissim suspendisse in est. Fringilla est ullamcorper eget nulla facilisi etiam dignissim. Egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien. Eget duis at tellus at urna condimentum mattis pellentesque id. Id leo in vitae turpis massa sed elementum tempus egestas. Felis eget velit aliquet sagittis id consectetur purus ut faucibus. Egestas sed tempus urna et pharetra pharetra massa massa. Habitant morbi tristique senectus et. Nisl suscipit adipiscing bibendum est ultricies integer quis auctor elit. Sed egestas egestas fringilla phasellus faucibus. Purus semper eget duis at tellus. Commodo ullamcorper a lacus vestibulum sed arcu non odio. Augue interdum velit euismod in. Integer enim neque volutpat ac tincidunt vitae. Fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien..</p>
+                        <p>I-EON PRIVATE LIMITED is an Indian Robotic technology company headquartered in the District of Trivandrum, Kerala, India.</p>
 
-                         <ul>
+                        <p>Our vision is to disrupt the health sector with robotics technology. A Upper Limb Exoskeleton for movement therapy,  a smart and efficient solution to replace the manual movement therapy is our first step towards this vision. The company recently got recognition from Department of Industrial Policy & Promotion India.</p>
+
+                        <p>The company is founded by Arshed A Samad, CET Trivandrum & Menino Fruto, CET Trivandrum. The company also has reputed mentors and advisors from physiotherapy department, Engineering professors from robotics and mechanical field. The company is now incubated at Trivandrum.</p>
+                        </p>
+
+                         <!-- <ul>
                             <li> Apartments frequently or motionless. </li>
                             <li> Duis aute irure dolor in reprehenderit in voluptate. </li>
                             <li> Voluptatem quia voluptas sit aspernatur.</li>
-                        </ul>
+                        </ul> -->
 
                         <div class="about_btn">
                             <a class="boxed-btn3" href="about-us">About Us</a>
@@ -79,7 +83,10 @@
                 <div class="col-xl-5 col-lg-5">
                     <div class="about_image">
                         <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                        <video width="320" height="240" controls>
+                            <source src="public/videos/hope.mp4" type="video/mp4">
+                        </video>
+                            <!-- <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=HpIBFFNzK8g"></iframe> -->
                         </div>
                     </div>
                 </div>
@@ -120,7 +127,7 @@
 
 
     <!-- service_area_start -->
-    <div class="service_area">
+    <!-- <div class="service_area">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
@@ -177,11 +184,11 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- service_area_end -->
 
     <!-- counter  -->
-    <div class="counter_area">
+    <!-- <div class="counter_area">
         <div class="container">
             <div class="row">
                 <div class="col-xl-4 col-md-4 panel panel_mob">
@@ -204,7 +211,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!--/ counter  -->
 
 
@@ -321,21 +328,21 @@
                     <div class="single_service_wrap text-center">
                         <img src="public/img/svg_icon/controls.svg" alt="">
                         <h3>Unlimited Control</h3>
-                        <p>These cases are perfectly simple and easy to </p>
+                        <!-- <p>These cases are perfectly simple and easy to </p> -->
                     </div>
                 </div>
                 <div class="col-xl-4 col-md-6 col-lg-4">
                     <div class="single_service_wrap text-center">
                         <img src="public/img/svg_icon/bar-chart.svg" alt="">
                         <h3>Rapidly Growth</h3>
-                        <p>These cases are perfectly simple and easy to </p>
+                        <!-- <p>These cases are perfectly simple and easy to </p> -->
                     </div>
                 </div>
                 <div class="col-xl-4 col-md-6 col-lg-4">
                     <div class="single_service_wrap text-center">
                         <img src="public/img/svg_icon/puzzle.svg" alt="">
                         <h3>Problem Solving</h3>
-                        <p>These cases are perfectly simple and easy to </p>
+                        <!-- <p>These cases are perfectly simple and easy to </p> -->
                     </div>
                 </div>
             </div>
@@ -422,4 +429,6 @@
     <!-- project  -->
     
     <!--/ project  -->
+     
 @endsection
+
