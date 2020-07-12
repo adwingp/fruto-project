@@ -36,7 +36,6 @@
             }
 
             
-
             @media only screen and (max-width: 600px)  {
                  .panel_mob {
                     transform: perspective(600px) rotateY(0deg) !important; 
@@ -99,32 +98,39 @@
     </script>
 
      <script>
+        var $window = $(window);
+        var windowsize = $window.width(); 
+
+        // if(windowsize > 991 && windowsize < 1120){
+        //     $('.second-main').removeClass('second');
+        //     $('.triangle-1').removeClass('not-show');
+        //     $('.triangle-2').removeClass('not-show');
+        // }else{
+        //     $('.second-main').addClass('second');
+        //     $('.triangle-1').addClass('not-show');
+        //     $('.triangle-2').addClass('not-show');
+        // }
+
         $(document).scroll(function() {
         var y = $(this).scrollTop();
 
         var $window = $(window);
-        var windowsize = $window.width();    
+        var windowsize = $window.width();  
+        // $('.triangle-1').addClass('not-show');
+        // $('.triangle-2').addClass('not-show');  
         if(windowsize > 1552){
-            if (y > 110) {
-                $('.triangle-1').removeClass('not-show');
-                $('.triangle-2').removeClass('not-show');
-                $('.second-main').addClass('not-show');
-                console.log("yes");
-            } else {
-                $('.triangle-1').addClass('not-show');
-                $('.triangle-2').addClass('not-show');
-                $('.second-main').removeClass('not-show');
-                console.log("no");
-            }
+            // if (y > 300) {
+            //     $('.triangle-1').removeClass('not-show');
+            //     $('.triangle-2').removeClass('not-show');
+            //     $('.second-main').addClass('not-show');
+            //     console.log("yes");
+            // } else {
+            //     $('.triangle-1').addClass('not-show');
+            //     $('.triangle-2').addClass('not-show');
+            //     $('.second-main').removeClass('not-show');
+            //     console.log("no");
+            // }
         }
-        if(windowsize < 668){
-            if(y > 25){
-                $('.second-main').addClass('second');
-            }else{
-                $('.second-main').removeClass('second');
-            }
-        }
-
         });
     </script>  
 

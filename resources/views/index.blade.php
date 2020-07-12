@@ -2,57 +2,13 @@
 @extends('layouts.app')
 @section('content')
     <!-- slider_area_start -->
-    <div class="slider_area">
-        <div class="slider_active owl-carousel">
-            <div class="single_slider  d-flex align-items-center slider_bg_1 overlay2">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="slider_text ">
-                                <h3> Future of movement therapy <br>
-                                    Robotic rehabilitation </h3>
-                                <p>gets done using exoskeleton technology
-                                   combining human intelligence, instinct and <br>
-                                   judgement with robotic strength.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="single_slider  d-flex align-items-center slider_bg_2 overlay2">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="slider_text ">
-                                <h3> Future of movement therapy <br>
-                                    Robotic rehabilitation </h3>
-                                <p>gets done using exoskeleton technology
-                                   combining human intelligence, instinct and <br>
-                                   judgement with robotic strength.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="single_slider  d-flex align-items-center slider_bg_3 overlay2">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="slider_text ">
-                                <h3> Future of movement therapy <br>
-                                    Robotic rehabilitation </h3>
-                                <p>gets done using exoskeleton technology
-                                   combining human intelligence, instinct and <br>
-                                   judgement with robotic strength.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="header-bann">
+        <div class="overlay"></div>
+        <video autoplay muted loop id="myVideo" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="public/videos/hope.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
     </div>
-    <!-- slider_area_end -->
-
 
     <!-- who we are  -->
     <div class="about_area about_wrap_area about_wrap_area2" >

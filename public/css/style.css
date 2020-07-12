@@ -856,11 +856,56 @@ h3 {
     }
 }
 
+@media (max-width: 991px) {
+    /* line 1, ../../Arafath/CL/CL October/213. Business/HTML/scss/_header.scss */
+
+    .triangle-1 {
+        display: none;
+    }
+    .triangle-2 {
+        display: none;
+    }
+
+    .second-main {
+        display: block;
+    }
+
+    .container {
+        margin: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    /* line 1, ../../Arafath/CL/CL October/213. Business/HTML/scss/_header.scss */
+    .triangle-1 {
+        display: block;
+    }
+    .triangle-2 {
+        display: block;
+    }
+
+    .second-main {
+        display: none;
+    }
+}
+
 /* line 16, ../../Arafath/CL/CL October/213. Business/HTML/scss/_header.scss */
 .header-area .main-header-area {
-    padding: 18px 0;
-    background: #fff;
-    background: transparent;
+    box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 58px;
+    z-index: 990;
+    /* transform: translateY(70px); */
+    transition: transform 500ms ease, background 500ms ease;
+    -webkit-transition: transform 500ms ease, background 500ms ease;
+    background: rgba(255, 255, 255, 0.96);
+    background: #0088cc;
+    padding-bottom: 0;
+    display: flex;
 }
 
 /* line 20, ../../Arafath/CL/CL October/213. Business/HTML/scss/_header.scss */
@@ -1166,15 +1211,14 @@ h3 {
     box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
     position: fixed;
     width: 100%;
-    top: -8%;
+    top: 0;
     left: 0;
     right: 0;
-    height: 79px;
+    height: 58px;
     z-index: 990;
-    transform: translateY(70px);
+    /* transform: translateY(70px); */
     transition: transform 500ms ease, background 500ms ease;
     -webkit-transition: transform 500ms ease, background 500ms ease;
-    box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
     background: rgba(255, 255, 255, 0.96);
     background: #0088cc;
     padding-bottom: 0;
@@ -1185,6 +1229,21 @@ h3 {
     /* line 239, ../../Arafath/CL/CL October/213. Business/HTML/scss/_header.scss */
     .header-area .main-header-area.sticky {
         padding: 10px 10px;
+    }
+}
+
+@media (max-width: 991px) {
+    /* line 239, ../../Arafath/CL/CL October/213. Business/HTML/scss/_header.scss */
+    .header-area .main-header-area.sticky {
+        padding: 10px 10px;
+    }
+
+    .header-area .main-header-area {
+        height: 53px !important;
+    }
+
+    .second-main {
+        margin: 2px !important;
     }
 }
 
@@ -1268,9 +1327,9 @@ h3 {
 
 /* line 322, ../../Arafath/CL/CL October/213. Business/HTML/scss/_header.scss */
 .header_bottom_border {
-    border-bottom: 1px solid #4b4e50;
+    /* border-bottom: 1px solid #4b4e50;
     padding-bottom: 22px;
-    margin-top: 12px;
+    margin-top: 12px; */
 }
 
 /* line 325, ../../Arafath/CL/CL October/213. Business/HTML/scss/_header.scss */
@@ -7102,16 +7161,16 @@ container-fluid p-0 {
 
 .triangle-1 {
     width: 400px;
-    height: 90px;
-    background: #6ec837;
-    margin-top: -12px;
+    height: 76px;
+    background: #6ec837c9;
+    margin-top: -19px;
 }
 
 .triangle-2 {
     width: 0;
     height: 0;
-    margin-top: -12px;
-    border-top: 90px solid #6ec837;
+    margin-top: -19px;
+    border-top: 76px solid #6ec837c9;
     border-right: 270px solid transparent;
 }
 
@@ -7120,8 +7179,28 @@ container-fluid p-0 {
 }
 
 .second {
-    /* margin-top: 10px; */
+    margin-top: 10px;
 }
+
+#myVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.header-bann {
+    position: relative;
+    background-color: black;
+    height: 100%;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 53px;
+    margin: 0;
+}
+
 /* .main-triangle {
     display: flex;
 } */
